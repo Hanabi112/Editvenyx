@@ -13,7 +13,14 @@ local tweeninfo = TweenInfo.new
 local utility = {}
 -- themes
 local objects = {}
-
+local themes = {
+	Background = Color3.fromRGB(24, 24, 24), 
+	Glow = _G.Color or Color3.fromRGB(255, 178, 102), 
+	Accent = Color3.fromRGB(10, 10, 10), 
+	LightContrast = Color3.fromRGB(20, 20, 20), 
+	DarkContrast = Color3.fromRGB(14, 14, 14),  
+	TextColor = _G.Color or Color3.fromRGB(255, 178, 102)
+}
 do
 	function utility:Create(instance, properties, children)
 		local object = Instance.new(instance)
