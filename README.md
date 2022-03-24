@@ -2166,5 +2166,5 @@ do
 		end
 	end
 end
-local venyx = library.new("Venyx", 5013109572)
+
 return library
